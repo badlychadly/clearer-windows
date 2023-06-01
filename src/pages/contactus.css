@@ -1,0 +1,59 @@
+.contact-us-container {
+    padding: 2rem;
+    font-family: 'Trocchi', serif;
+    text-align: center;
+  }
+  
+  .contact-us-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  .contact-us-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  
+  .contact-us-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-us-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-us-info {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-us-info h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-us-info p {
+    font-size: 1rem;
+  }
+  
+  .contact-us-info a {
+    text-decoration: none;
+  }
+  
+  .contact-us-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media query for screens smaller than 350px */
+  @media (max-width: 350px) {
+    .contact-us-container {
+      padding: 1rem;
+    }
+  }
+  

@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Services from './pages/Services'
 import GetAQuote from './pages/GetAQuote';
+import ContactUs from './pages/ContactUs'
 import Navbar from './components/Navbar'
 
 
@@ -24,6 +25,8 @@ const App = () => {
           <Route path="/about-us" element={<AboutUs/>} />
           <Route path="/services" element={<Services/>} />
           <Route path="/get-a-quote" element={<GetAQuote/>} />
+          <Route path="/contact-us" element={<ContactUs/>} />
+
 
 
         </Routes>
