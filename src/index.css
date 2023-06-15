@@ -80,3 +80,12 @@ code {
   font-family: 'Trocchi', serif;
   color: white;
 }
+
+.self-photo {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+}

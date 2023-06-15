@@ -8,6 +8,7 @@ const AboutUs = () => {
             <div className='card-body'>
                 <h2>About Us</h2>
                 <h4>Welcome to Clearer Windows!</h4>
+                <img src={`${process.env.PUBLIC_URL}/images/selfpose.jpg`} alt='Your Name' className='self-photo' />
                 <p className='mt-5'>
                 We are a professional window cleaning company serving homeowners and businesses in the area. We understand the importance of maintaining clean windows that enhance the appearance and value of your property.
                 </p>
