@@ -12,7 +12,7 @@ const Services = () => {
 
         <div className="service">
           <h3>Window Cleaning</h3>
-          <img src={`${process.env.PUBLIC_URL}/images/placeHolder.jpg`} alt="Window Cleaning" />
+          <img src={`${process.env.PUBLIC_URL}/images/cleaningwindow.jpg`} alt="Window Cleaning" />
           <div className="service-details">
             <p>Experience streak-free windows that enhance the beauty of your space. Our professional team ensures a thorough and meticulous cleaning for every window.</p>
           </div>
@@ -20,7 +20,7 @@ const Services = () => {
 
         <div className="service">
           <h3>Screen Cleaning</h3>
-          <img src={`${process.env.PUBLIC_URL}/images/placeHolder.jpg`} alt="Screen Cleaning" />
+          <img src={`${process.env.PUBLIC_URL}/images/screencleanpose.jpg`} alt="Screen Cleaning" />
           <div className="service-details">
             <p>Let your windows breathe with clean and well-maintained screens. We remove dust, debris, and grime to improve the clarity and functionality of your screens.</p>
           </div>
@@ -28,7 +28,7 @@ const Services = () => {
 
         <div className="service">
           <h3>Hard Water Removal</h3>
-          <img src={`${process.env.PUBLIC_URL}/images/placeHolder.jpg`} alt="Hard Water Removal" />
+          <img src={`${process.env.PUBLIC_URL}/images/polework2.jpg`} alt="Hard Water Removal" />
           <div className="service-details">
             <p>Say goodbye to stubborn hard water stains on your windows. Our expert technicians employ effective techniques to restore the clarity and brilliance of your glass surfaces.</p>
           </div>
