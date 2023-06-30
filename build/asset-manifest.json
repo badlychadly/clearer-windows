@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.abc587b0.css",
+    "main.js": "/static/js/main.d9182315.js",
+    "static/js/787.6ff73453.chunk.js": "/static/js/787.6ff73453.chunk.js",
+    "static/media/coolphoto.jpg": "/static/media/coolphoto.83b6603337d6dd006f76.jpg",
+    "static/media/Trocchi-Regular.ttf": "/static/media/Trocchi-Regular.70fd72195e327eb1317a.ttf",
+    "index.html": "/index.html",
+    "main.abc587b0.css.map": "/static/css/main.abc587b0.css.map",
+    "main.d9182315.js.map": "/static/js/main.d9182315.js.map",
+    "787.6ff73453.chunk.js.map": "/static/js/787.6ff73453.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abc587b0.css",
+    "static/js/main.d9182315.js"
+  ]
+}
