@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.abc587b0.css",
-    "main.js": "/static/js/main.d9182315.js",
-    "static/js/787.6ff73453.chunk.js": "/static/js/787.6ff73453.chunk.js",
-    "static/media/coolphoto.jpg": "/static/media/coolphoto.83b6603337d6dd006f76.jpg",
-    "static/media/Trocchi-Regular.ttf": "/static/media/Trocchi-Regular.70fd72195e327eb1317a.ttf",
-    "index.html": "/index.html",
-    "main.abc587b0.css.map": "/static/css/main.abc587b0.css.map",
-    "main.d9182315.js.map": "/static/js/main.d9182315.js.map",
-    "787.6ff73453.chunk.js.map": "/static/js/787.6ff73453.chunk.js.map"
+    "main.css": "/clearer-windows/static/css/main.11166586.css",
+    "main.js": "/clearer-windows/static/js/main.ce470d47.js",
+    "static/js/787.6ff73453.chunk.js": "/clearer-windows/static/js/787.6ff73453.chunk.js",
+    "static/media/coolphoto.jpg": "/clearer-windows/static/media/coolphoto.83b6603337d6dd006f76.jpg",
+    "static/media/Trocchi-Regular.ttf": "/clearer-windows/static/media/Trocchi-Regular.70fd72195e327eb1317a.ttf",
+    "index.html": "/clearer-windows/index.html",
+    "main.11166586.css.map": "/clearer-windows/static/css/main.11166586.css.map",
+    "main.ce470d47.js.map": "/clearer-windows/static/js/main.ce470d47.js.map",
+    "787.6ff73453.chunk.js.map": "/clearer-windows/static/js/787.6ff73453.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abc587b0.css",
-    "static/js/main.d9182315.js"
+    "static/css/main.11166586.css",
+    "static/js/main.ce470d47.js"
   ]
 }
