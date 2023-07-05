@@ -23,7 +23,7 @@ const GetAQuote = () => {
     <div className="get-a-quote">
       <h2>Get a Quote</h2>
       <p>At our window cleaning business, we charge around $9 per window, although prices may vary based on different conditions such as window size and location. For accurate pricing, we recommend scheduling an appointment to have us provide an in-person quote. To request a quote, please fill in the information below and we will get in touch with you shortly:</p>
-      <form onSubmit={handleSubmit} data-netlify="true">
+      <form onSubmit={handleSubmit} netlify>
         <input type="hidden" name="form-name" value="contact" />
         <label>
           Name: <br />
