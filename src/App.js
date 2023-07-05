@@ -15,7 +15,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <Router basename='/clearer-windows'>
+    <Router basename='/'>
       <div>
         {/* <BackgroundImage/> */}
         <Navbar/>
