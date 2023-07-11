@@ -26,11 +26,40 @@
     <title>Clearer Windows</title>
   </head>
   <body>
-    <!-- <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
-    </form> -->
+    
+
+    <form name="contact v3" method="post" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact v3" />
+      <div hidden>
+        <input name='bot-field'/>
+      </div>
+      <label>
+        Name: <br />
+        <input type="text" name="name"/>
+      </label>
+      <br />
+      <label>
+        Email: <br />
+        <input type="email" name="email"/>
+      </label>
+      <br />
+      <label>
+        Phone: <br />
+        <input type="tel" name="phone"/>
+      </label>
+      <br />
+      <label>
+        Message: <br />
+        <textarea name="message"/>
+      </label>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+
+
+
+
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
