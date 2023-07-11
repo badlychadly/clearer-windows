@@ -33,6 +33,7 @@ code {
   font-family: 'Trocchi', serif;
   color: white;
   opacity: 93%;
+  z-index: 1000;
 }
 
 .custom-link {
@@ -72,6 +73,7 @@ code {
   color: white;
   margin: auto;
   font-family: 'Trocchi', serif;
+  z-index: 1;
 }
 
 .headline {
