@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark navbar-custom">
+    <nav className="navbar navbar-expand-md navbar-dark navbar-custom">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           Clearer Windows
