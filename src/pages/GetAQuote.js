@@ -34,8 +34,11 @@ const encode = (data) => {
     const { name, email, message } = formData;
   
     return (
-      <form name="contact" method="post" onSubmit={handleSubmit}>
+      <form name="contact" method="post" onSubmit={handleSubmit} data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact" />
+        <div hidden>
+          <input name='bot-field'/>
+        </div>
         <p>
           <label>
             Your Name: <input type="text" name="name" value={name} onChange={handleChange} />
