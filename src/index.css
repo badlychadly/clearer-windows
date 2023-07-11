@@ -49,6 +49,11 @@ code {
  
 }
 
+#root > div > nav > div > div > button:hover {
+  border-color: yellow;
+  background-color: #2fccc9
+}
+
 .dropdown-menu {
 
   background-color: #2CB2AF;
