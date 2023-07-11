@@ -51,28 +51,28 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <ul className="navbar-toggler dropdown-menu text-reset fs-6 dropdown-menu-end p-1">
-            <li className="dropdown-item text-center p-3 text-reset">
-              <Link to="/" className="nav-link">
+            <li className="text-reset">
+              <Link to="/" className="dropdown-item text-center nav-link p-3">
                 Home
               </Link>
             </li>
-            <li className="dropdown-item text-center p-3 text-reset">
-              <Link to="/about-us" className="nav-link">
+            <li className="text-reset">
+              <Link to="/about-us" className="dropdown-item text-center nav-link p-3">
                 About
               </Link>
             </li>
-            <li className="dropdown-item text-center p-3 text-reset">
-              <Link to="/services" className="nav-link">
+            <li className="text-reset">
+              <Link to="/services" className="dropdown-item text-center nav-link p-3">
                 Services
               </Link>
             </li>
-            <li className="dropdown-item text-center p-3 text-reset">
-              <Link to="/get-a-quote" className="nav-link">
+            <li className="text-reset">
+              <Link to="/get-a-quote" className="dropdown-item text-center nav-link p-3">
                 Get a Quote
               </Link>
             </li>
-            <li className="dropdown-item text-center p-3 text-reset">
-              <Link to="/contact-us" className="nav-link">
+            <li className="text-reset">
+              <Link to="/contact-us" className="dropdown-item text-center nav-link p-3">
                 Contact Us
               </Link>
             </li>
