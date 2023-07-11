@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import '../getaquote.css';
 
 
-const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-  }
+// const encode = (data) => {
+//     return Object.keys(data)
+//         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+//         .join("&");
+//   }
 
 
 
@@ -14,44 +14,44 @@ const encode = (data) => {
 
 
   const GetAQuote = () => {
-    const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+    // const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode({ 'form-name': 'contact', ...formData })
-      })
-        .then(() => alert('Success!'))
-        .catch((error) => alert(error));
-    };
+    // const handleSubmit = (e) => {
+    //   e.preventDefault();
+    //   fetch('/', {
+    //     method: 'POST',
+    //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    //     body: encode({ 'form-name': 'contact', ...formData })
+    //   })
+    //     .then(() => alert('Success!'))
+    //     .catch((error) => alert(error));
+    // };
   
-    const handleChange = (e) => {
-      setFormData({ ...formData, [e.target.name]: e.target.value });
-    };
+    // const handleChange = (e) => {
+    //   setFormData({ ...formData, [e.target.name]: e.target.value });
+    // };
   
-    const { name, email, message } = formData;
+    // const { name, email, message } = formData;
   
     return (
-      <form name="contact" method="post" onSubmit={handleSubmit} data-netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact" />
+      <form name="contact v2" method="post" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact v2" />
         <div hidden>
           <input name='bot-field'/>
         </div>
         <p>
           <label>
-            Your Name: <input type="text" name="name" value={name} onChange={handleChange} />
+            Your Name: <input type="text" name="name"/>
           </label>
         </p>
         <p>
           <label>
-            Your Email: <input type="email" name="email" value={email} onChange={handleChange} />
+            Your Email: <input type="email" name="email"/>
           </label>
         </p>
         <p>
           <label>
-            Message: <textarea name="message" value={message} onChange={handleChange} />
+            Message: <textarea name="message"/>
           </label>
         </p>
         <p>
