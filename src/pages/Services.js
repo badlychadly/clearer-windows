@@ -36,8 +36,8 @@ const Services = () => {
 
         <div className="testimonial">
           <h4>Client Testimonial</h4>
-          <p>"The team at Your Window Washing Company transformed our windows! They provided exceptional service, leaving our windows spotless. Highly recommended!"</p>
-          <p className="testimonial-author">- John Doe</p>
+          <p>"They went above and beyond. Wonderful customer service. No waiting time. Job Well done. Thank you."</p>
+          <p className="testimonial-author">- Michael</p>
         </div>
 
         <Link to="/get-a-quote" type='button' className='text-reset button' style={{textDecoration: 'none'}}>
